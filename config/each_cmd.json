@@ -1,0 +1,7 @@
+{
+    "hostnames": [ "host-1", "host-2", "host-3", "host-4", "host-5" ],
+    "cmdToRun": "echo {hostname}; sleep 2",
+    "hostnameTag": "{hostname}",
+    "threadCount": 5,
+    "timeoutMs": 3000
+}
